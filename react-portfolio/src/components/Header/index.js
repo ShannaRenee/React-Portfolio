@@ -1,8 +1,19 @@
 import React from 'react'
+import Nav from '../Nav'
 
-const Header = () => {
+const Header = ({pages, currentPage, setCurrentPage}) => {
   return (
-    <header>Header</header>
+    <header>
+      {/* <img /> */}
+      <div className='container'>
+        <h1>Shanna Morris</h1>
+        <Nav 
+        pages={pages} 
+        currentPage={currentPage} 
+        setCurrentPage={setCurrentPage}
+        />
+      </div>
+    </header>
   )
 }
 
