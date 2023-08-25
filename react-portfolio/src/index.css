@@ -26,3 +26,8 @@ html, body {
 main {
   min-height: calc(100vh - 250px);
 }
+
+a {
+  text-decoration: none;
+  color: var(--light);
+}
