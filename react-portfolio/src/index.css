@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light: #fafafa;
+  --dark: rgb(36, 94, 36);
+  --darker: brown;
+}
+
+html, body {
+  min-height: 100%;
+}
+
