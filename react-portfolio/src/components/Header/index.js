@@ -5,8 +5,8 @@ const Header = ({pages, currentPage, setCurrentPage}) => {
   return (
     <header>
       {/* <img /> */}
-      <div className='container'>
-        <h1>Shanna Morris</h1>
+      <div className='container d-lg-flex justify-content-lg-between'>
+        <h1 className='text-center'>Shanna Morris</h1>
         <Nav 
         pages={pages} 
         currentPage={currentPage} 
