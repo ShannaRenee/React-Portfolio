@@ -4,7 +4,7 @@ const Project = ({project}) => {
   return (
     <div className='col'>
         <div class='card'>
-            <img src={require(`../../assets/projects/${project.name}`)} 
+            <img src={require(`../../assets/projects/${project.name}.jpg`)} 
             class='card-img' 
             alt={project.name}
             />
