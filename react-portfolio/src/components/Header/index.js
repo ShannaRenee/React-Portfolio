@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../Nav'
+import './style.css'
 
 const Header = ({pages, currentPage, setCurrentPage}) => {
   return (
