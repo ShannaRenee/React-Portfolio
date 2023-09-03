@@ -27,14 +27,22 @@ main {
   min-height: calc(100vh - 250px);
 }
 
+
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a, li {
   color: var(--light);
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+a:hover, li:hover {
   opacity: 1;
 }
 

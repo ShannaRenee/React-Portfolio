@@ -1,12 +1,13 @@
 import React from 'react'
 import Nav from '../Nav'
+import headerImg from '../../assets/cover/cover-image.jpg';
 import './style.css'
 
 const Header = ({pages, currentPage, setCurrentPage}) => {
   return (
-    <header>
-      {/* <img /> */}
-      <div className='container d-lg-flex justify-content-lg-between'>
+    <header className='container-fluid'>
+      <img src={headerImg} alt='wood-like pattern'/>
+      <div className='container d-lg-flex justify-content-lg-between py-3'>
         <h1 className='text-center'>Shanna Morris</h1>
         <Nav 
         pages={pages} 
