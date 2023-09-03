@@ -4,8 +4,13 @@ main h2 {
 
 
 /* About */
-.fa-user-circle {
-    font-size: 6rem;
+img {
+    height: 25%;
+    width: 25%
+}
+
+p {
+    padding: 100px;
 }
 
 /* Resume */
