@@ -1,23 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { formatProjectTitle } from '../../utils';
 
 const Project = ({project}) => {
   return (
     <div className='col'>
-        <div class='card'>
+        <div className='card h-100'>
             <img src={require(`../../assets/projects/${project.name}.jpg`)} 
-            class='card-img' 
-            alt={project.name}
+            className='' 
+            alt={formatProjectTitle(project.name)}
             />
-            <div class='card-img-overlay'>
-                <h3 class='card-title'>
-                    <a href={project.link} className='card-text'>
-                        {project.name}
+            <div className='card-img-overlay d-flex flex-column justify-content-center projecy-info'>
+                <h3 className='card-title h-100'>
+                    <a href={project.link} className='card-text me-3'>
+                    {formatProjectTitle(project.name)}
                     </a>
                     <a href={project.repo} className='card-text'>
                         <i className='fab fa-github'></i>
                     </a>
                 </h3>
-                <p class='card-text'>
+                <p className='card-text'>
                     {project.description}
                 </p>
             </div>
