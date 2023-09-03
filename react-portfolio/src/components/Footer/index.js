@@ -5,11 +5,11 @@ const Footer = () => {
   const icons = [
     {
       name: 'fab fa-github',
-      link: 'https://github.com'
+      link: 'https://github.com/ShannaRenee'
     },
     {
       name: 'fab fa-linkedin',
-      link: 'https://linkedin.com'
+      link: 'https://www.linkedin.com/in/shanna-morris-6b42b2283/'
     },
     {
       name: 'fab fa-stack-overflow',

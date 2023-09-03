@@ -5,9 +5,9 @@
 }
 
 :root {
-  --light: #fafafa;
-  --dark: rgb(36, 94, 36);
-  --darker: brown;
+  --light: #808364;
+  --dark: rgb(163, 241, 196);
+  --darker: rgb(6, 39, 22);
   --overlay: rgba(255, 255, 255, 0.7);
   --overlayTxt: #31343d;
 }
@@ -49,5 +49,5 @@ a:hover, li:hover {
 }
 
 h1, h2, h3 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Abril Fatface', cursive;
 }

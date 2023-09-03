@@ -17,7 +17,7 @@ const Resume = () => {
             <li class="list-group-item">jQuery</li>
             <li class="list-group-item">responsive design</li>
             <li class="list-group-item">React</li>
-            <li class="list-group-item">Bootsrtap</li>
+            <li class="list-group-item">Bootstrap</li>
           </ul>
         </div>
         <div className='col-12 col-md-6 d-flex flex-column align-items-center
