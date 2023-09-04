@@ -3,6 +3,9 @@
     font-weight: bold;
     color: var(--dark);
 }
+.card-text {
+    padding: 20px;
+}
 
 .project-info {
     color: var(--overlayTxt);
@@ -16,6 +19,8 @@
 }
 
 .card {
+    margin-top: 50px;
+    height: 50px;
     transition: all 0.5s ease-in-out;
 }
 

@@ -1,16 +1,17 @@
 import React from 'react';
 import { formatProjectTitle } from '../../utils';
+import './style.css';
 
 const Project = ({project}) => {
   return (
     <div className='col'>
         <div className='card h-100'>
-            <img src={require(`../../assets/projects/${project.name}.jpg`)} 
+            <img src={require(`../../assets/projects/${project.name}.png`)} 
             className='' 
             alt={formatProjectTitle(project.name)}
             />
-            <div className='card-img-overlay d-flex flex-column justify-content-center projecy-info'>
-                <h3 className='card-title h-100'>
+            <div className='card-img-overlay d-flex flex-column justify-content-center project-info'>
+                <h3 className='card-title'>
                     <a href={project.link} className='card-text me-3'>
                     {formatProjectTitle(project.name)}
                     </a>

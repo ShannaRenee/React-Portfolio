@@ -15,7 +15,7 @@ const Resume = () => {
             <li class="list-group-item">CSS</li>
             <li class="list-group-item">JavaScript</li>
             <li class="list-group-item">jQuery</li>
-            <li class="list-group-item">responsive design</li>
+            <li class="list-group-item">Responsive design</li>
             <li class="list-group-item">React</li>
             <li class="list-group-item">Bootstrap</li>
           </ul>

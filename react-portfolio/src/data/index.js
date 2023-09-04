@@ -1,20 +1,20 @@
 export const projects=[
     {
-        name: 'surf-report',
-        description: 'MERN Stack',
-        link: 'https://github.com',
-        repo: 'https://github.com'
+        name: 'Weather-Dashboard',
+        description: '3rd Party API',
+        link: 'https://shannarenee.github.io/Weather-Dashboard/',
+        repo: 'https://github.com/ShannaRenee/Weather-Dashboard'
     },
     {
-        name: 'run-buddy',
-        description: 'HTML/CSS',
-        link: 'https://github.com',
-        repo: 'https://github.com'
+        name: 'Umai-Foods',
+        description: 'HTML/CSS/JS',
+        link: 'https://idjjurado.github.io/UMAI-foods/',
+        repo: 'https://github.com/Idjjurado/UMAI-foods'
     },
     {
-        name: 'led-wall',
-        description: 'node',
-        link: 'https://github.com',
-        repo: 'https://github.com'
+        name: 'Code-Quiz',
+        description: 'JavaScript',
+        link: 'https://shannarenee.github.io/Code-Quiz/',
+        repo: 'https://github.com/ShannaRenee/Code-Quiz'
     },
 ]
